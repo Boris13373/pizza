@@ -1,6 +1,6 @@
 import telebot
 from handler import Handler
-
+token = '5064765189:AAEcdgf2yUcfvPF8aXY5HY_SvU6-49Ne2W8'
 bot = telebot.TeleBot(token)
 handler = Handler()
 @bot.message_handler()
